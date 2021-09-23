@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+.section-a .navbar-expand-sm ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 20px; }
+  .section-a .navbar-expand-sm ul li {
+    float: left; }
+  .section-a .navbar-expand-sm ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  .section-a .navbar-expand-sm ul li a:hover {
+    background-color: #238f69;
+    color: white; }
+  .section-a .navbar-expand-sm ul a:after {
+    content: '\25Bc';
+    margin-left: 5px;
+    font-size: 10px; }
+.section-a .icons {
+  margin-top: 15px;
+  margin-left: 250px; }
+.section-a .adjust-btn {
+  width: 40px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer; }
+.section-a .adjust-btn:hover {
+  color: green; }
+.section-a .globe-btn {
+  width: 40px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer; }
+.section-a .globe-btn:hover {
+  color: green; }
+.section-a .search-btn {
+  width: 40px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer; }
+.section-a .search-btn:hover {
+  color: green; }
+
+.buttons .btn-success {
+  margin-left: 15px;
+  margin-top: 8px;
+  background: none;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-family: Calibri,sans-serif;
+  font-size: 20px; }
+
+.section-b {
+  background-color: #2a2828;
+  display: block;
+  padding: 6% 6%; }
+  .section-b .col-6 h1 {
+    margin-left: 150px;
+    font-size: 90px;
+    color: white; }
+  .section-b .col-6 p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 100px; }
+
+.card .card-header h5 {
+  font-weight: 700; }
+
+.section-c {
+  background-color: #b6d5e8;
+  display: block;
+  padding: 6% 6%; }
+  .section-c .col-6 h1 {
+    margin-left: 200px;
+    font-size: 90px;
+    color: black; }
+  .section-c .col-6 p {
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 100px; }
+
+.card .card-header h5 {
+  font-weight: 700; }
+
+.section-d {
+  background-color: #efef79;
+  display: block;
+  padding: 6% 6%; }
+  .section-d .col-6 h1 {
+    margin-left: 130px;
+    font-size: 70px;
+    color: black; }
+  .section-d .col-6 p {
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 120px; }
+
+.card .card-header h5 {
+  font-weight: 700; }
+
+.section-e {
+  background-color: #2a2828;
+  display: block;
+  padding: 6% 6%; }
+  .section-e .col-6 h1 {
+    margin-left: 150px;
+    font-size: 70px;
+    color: white; }
+  .section-e .col-6 p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 130px; }
+
+.card .card-header h5 {
+  font-weight: 700; }
+
+.section-f {
+  background-color: #ece8e8;
+  display: block;
+  padding: 6% 6%; }
+  .section-f .col-6 h1 {
+    margin-left: 230px;
+    font-size: 70px;
+    color: black; }
+  .section-f .col-6 p {
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 130px; }
+
+.card .card-header h5 {
+  font-weight: 700; }
+
+.section-g {
+  background-color: #2a2828;
+  margin: 0 auto; }
+  .section-g .row {
+    padding: 6% 6%; }
+    .section-g .row .card {
+      background-color: #e893be;
+      height: 250px; }
+      .section-g .row .card h2 {
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        color: black;
+        margin-top: 30px; }
+      .section-g .row .card p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px; }
+      .section-g .row .card .btn-dark {
+        width: 200px;
+        height: 45px;
+        border-radius: 50px;
+        margin-top: 20px;
+        margin-left: 200px;
+        font-size: 20px; }
+
+.section-h {
+  background-color: #2a2828; }
+  .section-h .row {
+    padding: 2% 3%; }
+    .section-h .row .col-3 .card {
+      background-color: #d38aad;
+      height: 130px;
+      cursor: pointer; }
+      .section-h .row .col-3 .card h2 {
+        text-align: center;
+        margin-top: 50px; }
+
+.section-i {
+  background-color: #2a2828; }
+  .section-i .row {
+    padding: 2% 3%; }
+    .section-i .row .col-6 .card {
+      background-color: #de8eb6;
+      height: 120px;
+      cursor: pointer; }
+      .section-i .row .col-6 .card h2 {
+        text-align: center;
+        margin-top: 34px; }
+
+.section-j {
+  background-color: #2a2828; }
+  .section-j .row {
+    padding: 2% 3%; }
+    .section-j .row .col-3 .card {
+      background-color: #469fc7;
+      height: 120px;
+      cursor: pointer; }
+      .section-j .row .col-3 .card h2 {
+        text-align: center;
+        margin-top: 40px; }
+    .section-j .row .col-6 .card {
+      background-color: #cbcb71;
+      height: 120px;
+      cursor: pointer; }
+      .section-j .row .col-6 .card h2 {
+        text-align: center;
+        margin-top: 40px; }
+
+.section-k {
+  height: 400px; }
+  .section-k h2 {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 70px; }
+  .section-k p {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center; }
+  .section-k img {
+    margin-left: 600px;
+    margin-top: 30px; }
+
+.section-k img:hover {
+  opacity: 60%; }
+
+.section-l {
+  background-color: #76b7cc;
+  height: 550px;
+  padding: 2% 2%; }
+  .section-l h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Freckle Face', cursive; }
+  .section-l p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Freckle Face', cursive; }
+  .section-l img {
+    margin-left: 600px;
+    margin-top: 30px; }
+
+.section-l img:hover {
+  opacity: 60%; }
+
+.section-l button:hover {
+  background-color: black; }
+
+.section-m {
+  background-color: #2a2828;
+  padding: 3% 4%; }
+  .section-m .text-center h2 {
+    font-size: 50px;
+    color: white;
+    font-family: Calibri,sans-serif; }
+  .section-m .text-center h4 {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px; }
+  .section-m .row {
+    padding: 3% 4%; }
+    .section-m .row .col-6 .card {
+      background-color: #238f69;
+      width: 500px;
+      height: 180px;
+      margin-left: 25px; }
+      .section-m .row .col-6 .card h2 {
+        font-family: Calibri,sans-serif;
+        margin-top: 60px;
+        font-size: 40px; }
+    .section-m .row .col-6 .card:hover {
+      background-color: #2a735d;
+      cursor: pointer; }
+
+.section-n {
+  background-color: #e0dbdb;
+  padding: 3% 4%; }
+  .section-n .text-center h2 {
+    font-size: 50px;
+    font-family: Calibri,sans-serif;
+    color: black; }
+  .section-n .text-center h4 {
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: Calibri,sans-serif;
+    color: black; }
+  .section-n .text-center img {
+    width: 1000px;
+    height: 400px;
+    margin-top: 30px; }
+  .section-n .text-center .btn-dark {
+    width: 700px;
+    height: 60px;
+    border-radius: 40px;
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: Calibri,sans-serif; }
+
+.section-n .btn-dark:hover {
+  background-color: black; }
+
+.section-o {
+  padding: 4% 5%;
+  background-color: #2b2b38;
+  height: 450px; }
+  .section-o h2 {
+    font-size: 60px;
+    color: #e898bb;
+    font-family: Calibri,sans-serif; }
+  .section-o .btn-success {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 23px;
+    font-family: Calibri,sans-serif;
+    color: white; }
+
+.section-p {
+  padding: 5% 6%; }
+  .section-p .text-center h2 {
+    font-size: 55px;
+    color: black;
+    font-family: Calibri,sans-serif;
+    margin-top: 200px;
+    height: 40px; }
+  .section-p .text-center h4 {
+    font-family: Calibri,sans-serif;
+    font-size: 27px;
+    margin-top: 45px; }
+  .section-p .text-center .btn-dark {
+    width: 700px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-top: 20px; }
+
+.section-p .btn-dark:hover {
+  background-color: black; }
+
+.section-q {
+  background-color: #2a2828;
+  padding: 4% 5%; }
+  .section-q .row .btn-light {
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    color: black;
+    font-family: Calibri,sans-serif; }
+  .section-q .navbar-expand-sm {
+    margin-left: 610px; }
+  .section-q .iconss {
+    margin-top: 40px; }
+    .section-q .iconss .facebook-btn {
+      width: 50px;
+      height: 50px;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      cursor: pointer;
+      color: white;
+      float: right; }
+  .section-q .facebook-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px; }
+  .section-q .instagram-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    float: right; }
+  .section-q .instagram-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px; }
+  .section-q .telegram-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    float: right; }
+  .section-q .telegram-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px; }
+  .section-q .twitter-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    float: right; }
+  .section-q .twitter-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px; }
+  .section-q .section-q .links a:hover {
+    color: green; }
+  .section-q .thumb-icon {
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+    margin-left: 600px; }
+  .section-q .thumb-icon:hover {
+    opacity: 50%; }
+  .section-q .btn-success {
+    width: 700px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 22px; }
+
+/*# sourceMappingURL=style.css.map */

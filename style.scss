@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.section-a{
+  .navbar-expand-sm{
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-left: 20px;
+
+      li{
+        float: left;
+
+      }
+      li a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover{
+        background-color: #238f69;
+        color: white;
+
+      }
+      a:after{
+        content: '\25Bc';
+        margin-left: 5px;
+        font-size: 10px;
+      }
+    }
+  }
+  //the end of nav
+  .icons{
+    margin-top: 15px;
+    margin-left: 250px;
+
+  }
+  .adjust-btn{
+    width: 40px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+  .adjust-btn:hover{
+    color: green;
+  }
+  .globe-btn{
+    width: 40px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+  .globe-btn:hover{
+    color: green;
+  }
+  .search-btn{
+    width: 40px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+  .search-btn:hover{
+    color: green;
+  }
+}
+//the enf of icons
+.buttons{
+  .btn-success{
+    margin-left: 15px;
+    margin-top: 8px;
+    background: none;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-family: Calibri,sans-serif;
+    font-size: 20px;
+  }
+}
+//the end of navbar part
+.section-b{
+  background-color: #2a2828;
+  display: block;
+  padding: 6% 6%;
+  .col-6{
+    h1{
+      margin-left: 150px;
+      font-size: 90px;
+      color: white;
+    }
+    p{
+      color: white;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 100px;
+    }
+  }
+}
+.card{
+  .card-header{
+    h5{
+      font-weight: 700;
+    }
+  }
+}
+//the end of section-b
+.section-c{
+  background-color: #b6d5e8;
+  display: block;
+  padding: 6% 6%;
+  .col-6{
+    h1{
+      margin-left: 200px;
+      font-size: 90px;
+      color: black;
+    }
+    p{
+      color: black;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 100px;
+    }
+  }
+}
+.card{
+  .card-header{
+    h5{
+      font-weight: 700;
+    }
+  }
+}
+//the end of part-c
+.section-d{
+  background-color: #efef79;
+  display: block;
+  padding: 6% 6%;
+  .col-6{
+    h1{
+      margin-left: 130px;
+      font-size: 70px;
+      color: black;
+    }
+    p{
+      color: black;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 120px;
+    }
+  }
+}
+.card{
+  .card-header{
+    h5{
+      font-weight: 700;
+    }
+  }
+}
+//the end of part-d
+.section-e{
+  background-color: #2a2828;
+  display: block;
+  padding: 6% 6%;
+  .col-6{
+    h1{
+      margin-left: 150px;
+      font-size: 70px;
+      color: white;
+    }
+    p{
+      color: white;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 130px;
+    }
+  }
+}
+.card{
+  .card-header{
+    h5{
+      font-weight: 700;
+    }
+  }
+}
+//the end of part-e
+.section-f{
+  background-color: #ece8e8;
+  display: block;
+  padding: 6% 6%;
+  .col-6{
+    h1{
+      margin-left: 230px;
+      font-size: 70px;
+      color: black;
+    }
+    p{
+      color: black;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 130px;
+    }
+  }
+}
+.card{
+  .card-header{
+    h5{
+      font-weight: 700;
+    }
+  }
+}
+.section-g{
+  background-color: #2a2828;
+  margin: 0 auto;
+  .row{
+    padding: 6% 6%;
+    .card{
+      background-color: #e893be;
+      height: 250px;
+      h2{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        color: black;
+        margin-top: 30px;
+      }
+      p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .btn-dark{
+        width: 200px;
+        height: 45px;
+        border-radius: 50px;
+        margin-top: 20px;
+        margin-left: 200px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+
+.section-h{
+  background-color: #2a2828;
+  .row{
+    padding: 2% 3%;
+    .col-3{
+      .card{
+        background-color: #d38aad;
+        height: 130px;
+        cursor: pointer;
+        h2{
+          text-align: center;
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
+
+.section-i{
+  background-color: #2a2828;
+  .row{
+    padding: 2% 3%;
+    .col-6{
+      .card{
+        background-color: #de8eb6;
+        height: 120px;
+        cursor: pointer;
+        h2{
+          text-align: center;
+          margin-top: 34px;
+        }
+      }
+    }
+  }
+}
+
+.section-j{
+  background-color: #2a2828;
+  .row{
+    padding: 2% 3%;
+    .col-3{
+      .card{
+        background-color: #469fc7;
+        height: 120px;
+        cursor: pointer;
+        h2{
+          text-align: center;
+          margin-top: 40px;
+        }
+      }
+    }
+    .col-6{
+      .card{
+        background-color: #cbcb71;
+        height: 120px;
+        cursor: pointer;
+        h2{
+          text-align: center;
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}
+
+.section-k{
+  height: 400px;
+
+  h2{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  p{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  img{
+    margin-left: 600px;
+    margin-top: 30px;
+  }
+}
+.section-k img:hover{
+  opacity: 60%;
+}
+
+.section-l{
+  background-color: #76b7cc;
+  height: 550px;
+  padding: 2% 2%;
+  h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Freckle Face', cursive;
+  }
+  p{
+    font-size: 30px;
+
+    text-align: center;
+    font-family: 'Freckle Face', cursive;
+  }
+  img{
+    margin-left: 600px;
+    margin-top: 30px;
+  }
+}
+.section-l img:hover{
+  opacity: 60%;
+}
+.section-l button:hover{
+  background-color: black;
+}
+
+
+
+.section-m{
+  background-color: #2a2828;
+  padding: 3% 4%;
+  .text-center{
+    h2{
+      font-size: 50px;
+      color: white;
+      font-family: Calibri,sans-serif;
+    }
+    h4{
+      font-size: 20px;
+      color: white;
+      margin-top: 20px;
+    }
+  }
+  .row{
+    padding: 3% 4%;
+    .col-6{
+      .card{
+        background-color: #238f69;
+        width: 500px;
+        height: 180px;
+        margin-left: 25px;
+        h2{
+          font-family: Calibri,sans-serif;
+          margin-top: 60px;
+          font-size: 40px;
+        }
+      }
+      .card:hover{
+        background-color: #2a735d;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+.section-n{
+  background-color: #e0dbdb;
+  padding: 3% 4%;
+  .text-center{
+
+    h2{
+      font-size: 50px;
+      font-family: Calibri,sans-serif;
+      color: black;
+    }
+    h4{
+      font-size: 25px;
+      margin-top: 30px;
+      font-family: Calibri,sans-serif;
+      color: black;
+    }
+    img{
+      width: 1000px;
+      height: 400px;
+      margin-top: 30px;
+    }
+    .btn-dark{
+      width: 700px;
+      height: 60px;
+      border-radius: 40px;
+      margin-top: 35px;
+      font-size: 25px;
+      font-family: Calibri,sans-serif;
+    }
+  }
+}
+.section-n .btn-dark:hover{
+  background-color: black;
+}
+
+
+.section-o{
+  padding: 4% 5%;
+  background-color: #2b2b38;
+  height: 450px;
+  h2{
+    font-size: 60px;
+    color: #e898bb;
+    font-family: Calibri,sans-serif;
+  }
+  .btn-success{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 23px;
+    font-family: Calibri,sans-serif;
+    color: white;
+  }
+}
+
+
+.section-p{
+
+  padding: 5% 6%;
+  .text-center{
+    h2{
+      font-size: 55px;
+      color: black;
+      font-family: Calibri,sans-serif;
+      margin-top: 200px;
+      height: 40px;
+    }
+    h4{
+      font-family: Calibri,sans-serif;
+      font-size: 27px;
+      margin-top: 45px;
+    }
+    .btn-dark{
+      width: 700px;
+      height: 60px;
+      font-size: 25px;
+      border-radius: 50px;
+      margin-top: 20px;
+    }
+  }
+}
+.section-p .btn-dark:hover{
+  background-color: black;
+}
+
+
+.section-q{
+  background-color: #2a2828;
+  padding: 4% 5%;
+  .row{
+    .btn-light{
+      margin-left: 20px;
+      width: 120px;
+      height: 40px;
+      color: black;
+      font-family: Calibri,sans-serif;
+    }
+  }
+  .navbar-expand-sm{
+    margin-left: 610px;
+  }
+  .iconss{
+    margin-top: 40px;
+    .facebook-btn{
+      width: 50px;
+      height: 50px;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      cursor: pointer;
+      color: white;
+      float: right;
+
+
+    }
+  }
+  .facebook-btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  .instagram-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+  .instagram-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  .telegram-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+  .telegram-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  .twitter-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+  .twitter-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  .section-q .links a:hover{
+    color: green;
+  }
+  .thumb-icon {
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+    margin-left: 600px;
+  }
+  .thumb-icon:hover {
+    opacity: 50%;
+  }
+  .btn-success{
+    width: 700px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 22px;
+
+
+  }
+
+}
